@@ -58,6 +58,13 @@ ul {
   color: rgb(68, 43, 43);
 }
 
+li {
+}
+
+.pen {
+  list-style: none;
+}
+
 .scroll-list {
   float: left;
   justify-content: center;
@@ -147,7 +154,7 @@ h6 {
 }
 
 section {
-  padding: 3rem;
+  padding: 0.5rem;
 }
 
 #contact {
