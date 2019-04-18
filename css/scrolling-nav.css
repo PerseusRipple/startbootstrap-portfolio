@@ -25,7 +25,12 @@ p {
   background-color: aliceblue !important;
 }
 
+h2 {
+  text-align: center;
+}
 .container.text-center h1 {
+  justify-content: center;
+  text-align: center;
   color: black;
   margin-top: 1.5rem;
 }
@@ -36,18 +41,36 @@ p {
   font-size: 1.5rem;
 }
 
+.lead {
+  color: rgb(68, 43, 43);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
   color: rgb(68, 43, 43);
 }
 
 .scroll-list {
-  list-style: none;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  /* list-style: none; */
+}
+
+.scroll-list:hover {
+  color: orange;
+  text-decoration: none;
 }
 
 a,
@@ -70,17 +93,19 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+  min-height: 39rem;
 }
 
 .contact-ul {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: center;
   color: rgb(68, 43, 43);
   margin-left: 0.5rem;
-  /* padding: 0.75rem; */
   list-style: none;
+  /* padding: 0.75rem; */
 }
 
 .contact-ul li,
@@ -111,6 +136,10 @@ a {
 .projects-gallery img {
   margin: 1rem;
   padding: 1rem;
+}
+
+#projects {
+  padding-bottom: 0;
 }
 
 h6 {
