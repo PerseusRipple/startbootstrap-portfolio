@@ -114,8 +114,17 @@ li {
   min-height: 39rem;
 }
 
+/* .middle {
+  background-color: #f8f9fa !important;
+  width: 100%;
+} */
+
 #skills {
   min-height: 15rem;
+}
+
+#contact {
+  background-color: #f8f9fa !important;
 }
 
 .contact-ul {
