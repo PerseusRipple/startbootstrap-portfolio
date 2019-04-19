@@ -20,19 +20,28 @@ p {
   /* background-image: url('/images/boyOnLadderheader.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-  padding: 0; */
+  margin: 0; */
+  /* padding: 10rem; */
   background-color: aliceblue !important;
 }
 
+h1 {
+  color: rgb(65, 65, 129) !important;
+}
+
 h2 {
+  color: rgb(65, 65, 129);
+  margin-top: 2rem;
   text-align: center;
+}
+
+.container.text-center {
+  padding-top: 1rem;
 }
 .container.text-center h1 {
   justify-content: center;
   text-align: center;
   color: black;
-  margin-top: 1.5rem;
 }
 
 .container.text-center p {
@@ -58,21 +67,23 @@ ul {
   color: rgb(68, 43, 43);
 }
 
-li {
-}
-
 .pen {
   list-style: none;
 }
 
 .scroll-list {
+  display: block;
   float: left;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin-top: 3rem;
-  padding: 1rem;
+  /* padding: 2rem; */
   /* list-style: none; */
+}
+
+.scroll-list li {
+  padding: 1rem;
 }
 
 .scroll-list:hover {
@@ -103,6 +114,10 @@ li {
   min-height: 39rem;
 }
 
+#skills {
+  min-height: 15rem;
+}
+
 .contact-ul {
   display: flex;
   justify-content: center;
@@ -127,9 +142,9 @@ a {
 
 .projects-gallery {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   align-content: center;
   list-style: none;
@@ -161,8 +176,8 @@ section {
   padding: 1rem;
 }
 
-img:hover {
-  text-decoration: coral;
+img {
+  border-radius: 50%;
 }
 
 .lead {
