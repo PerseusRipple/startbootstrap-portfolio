@@ -107,9 +107,10 @@ li {
 }
 
 #about {
-  background-image: url('/images/boyOnLadder.png');
+  background-color: #f8f9fa !important;
+  /* background-image: url('/images/boyOnLadder.png');
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 100%;
   min-height: 39rem;
 }
