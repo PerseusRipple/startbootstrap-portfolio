@@ -17,11 +17,6 @@ p {
 }
 
 .bg-primary {
-  /* background-image: url('/images/boyOnLadderheader.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0; */
-  /* padding: 10rem; */
   background-color: aliceblue !important;
 }
 
@@ -108,9 +103,6 @@ li {
 
 #about {
   background-color: #f8f9fa !important;
-  /* background-image: url('/images/boyOnLadder.png');
-  background-position: center;
-  background-repeat: no-repeat; */
   width: 100%;
   min-height: 39rem;
 }
@@ -172,10 +164,6 @@ a {
 
 #projects {
   padding-bottom: 0;
-}
-
-h6 {
-  /* text-align: center; */
 }
 
 section {
